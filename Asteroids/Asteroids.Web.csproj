@@ -6,4 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Asteroids.Core\Asteroids.Core.csproj" />
+  </ItemGroup>
+
 </Project>
