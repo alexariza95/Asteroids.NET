@@ -1,4 +1,4 @@
-﻿using Asteroids.Core.Services;
+﻿using Asteroids.Core.Services.NASA;
 using Microsoft.Net.Http.Headers;
 
 namespace Asteroids.Web.Configuration;
@@ -23,5 +23,7 @@ public static class ServicesConfiguration
             httpClient.BaseAddress = new Uri(builder.Configuration["NasaApi:BaseAdress"]);
             httpClient.DefaultRequestHeaders.Add(HeaderNames.Accept, "application/json");
         });
+
+        return builder;
     }
 }

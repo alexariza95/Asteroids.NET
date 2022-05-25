@@ -1,4 +1,4 @@
-﻿namespace Asteroids.Core.Services;
+﻿namespace Asteroids.Core.Services.NASA;
 
 public interface INasaService
 {
